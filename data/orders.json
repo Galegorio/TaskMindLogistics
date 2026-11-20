@@ -1,0 +1,11 @@
+[
+  {"id": "P101", "title": "Entregar equipamento médico", "priority": 5, "created_at": 100, "deadline": 300, "weight": 12, "destination": "C", "dependencies": [], "status": "pending"},
+  {"id": "P102", "title": "Documentos jurídicos", "priority": 3, "created_at": 90, "deadline": 400, "weight": 8, "destination": "B", "dependencies": [], "status": "pending"},
+  {"id": "P103", "title": "Kit de instalação (depende do equipamento)", "priority": 4, "created_at": 105, "deadline": 500, "weight": 10, "destination": "D", "dependencies": ["P101"], "status": "pending"},
+  {"id": "P104", "title": "Medicamento refrigerado", "priority": 2, "created_at": 95, "deadline": 120, "weight": 5, "destination": "E", "dependencies": [], "status": "pending"},
+  {"id": "P105", "title": "Máquina industrial (pesada)", "priority": 3, "created_at": 80, "deadline": 600, "weight": 45, "destination": "F", "dependencies": [], "status": "pending"},
+  {"id": "P106", "title": "Peça de reposição", "priority": 1, "created_at": 110, "deadline": 700, "weight": 3, "destination": "F", "dependencies": ["P105"], "status": "pending"},
+  {"id": "P107", "title": "Pedido cancelado pelo cliente", "priority": 5, "created_at": 50, "deadline": 200, "weight": 2, "destination": "B", "dependencies": [], "status": "cancelled"},
+  {"id": "P108", "title": "Pedido já entregue", "priority": 4, "created_at": 40, "deadline": 100, "weight": 2, "destination": "C", "dependencies": [], "status": "delivered"},
+  {"id": "P109", "title": "Destino em região desconectada", "priority": 4, "created_at": 100, "deadline": 800, "weight": 4, "destination": "G", "dependencies": [], "status": "pending"}
+]

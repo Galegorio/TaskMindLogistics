@@ -1,0 +1,6 @@
+[
+  {"id": "D01", "location": "A", "capacity": 30, "available_at": 100, "active": true},
+  {"id": "D02", "location": "B", "capacity": 50, "available_at": 100, "active": true},
+  {"id": "D03", "location": "E", "capacity": 20, "available_at": 150, "active": true},
+  {"id": "D04", "location": "A", "capacity": 40, "available_at": 100, "active": false}
+]

@@ -1,0 +1,11 @@
+{
+  "edges": [
+    {"from": "A", "to": "B", "time": 5},
+    {"from": "B", "to": "C", "time": 7},
+    {"from": "A", "to": "C", "time": 20},
+    {"from": "C", "to": "D", "time": 4},
+    {"from": "B", "to": "E", "time": 6},
+    {"from": "E", "to": "F", "time": 9},
+    {"from": "G", "to": "H", "time": 3}
+  ]
+}
